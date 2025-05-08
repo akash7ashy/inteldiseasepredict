@@ -70,7 +70,7 @@ multiple-disease-prediction-app/
 git clone https://github.com/yourusername/multiple-disease-prediction-app.git
 cd multiple-disease-prediction-app
 
- 2. Install Dependencies
+2. Install Dependencies
 
 pip install -r requirements.txt
 
