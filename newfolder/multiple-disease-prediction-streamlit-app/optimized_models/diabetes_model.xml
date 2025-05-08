@@ -1,1 +1,46 @@
+<net name="DiabetesModel" version="10" precision="FP32" batch="1">
+    <input name="input" type="float32" shape="1,8"/>
+    
+    <layer id="1" name="fc1" type="FullyConnected" precision="FP32">
+        <data out-size="12" weights="fc1_weights" biases="fc1_biases"/>
+        <input>
+            <port id="0"><dim>1</dim><dim>8</dim></port>
+        </input>
+        <output>
+            <port id="0"><dim>1</dim><dim>12</dim></port>
+        </output>
+    </layer>
+
+    <layer id="2" name="relu1" type="ReLU" precision="FP32">
+        <input><port id="0"><dim>1</dim><dim>12</dim></port></input>
+        <output><port id="0"><dim>1</dim><dim>12</dim></port></output>
+    </layer>
+
+    <layer id="3" name="fc2" type="FullyConnected" precision="FP32">
+        <data out-size="6" weights="fc2_weights" biases="fc2_biases"/>
+        <input><port id="0"><dim>1</dim><dim>12</dim></port></input>
+        <output><port id="0"><dim>1</dim><dim>6</dim></port></output>
+    </layer>
+
+    <layer id="4" name="relu2" type="ReLU" precision="FP32">
+        <input><port id="0"><dim>1</dim><dim>6</dim></port></input>
+        <output><port id="0"><dim>1</dim><dim>6</dim></port></output>
+    </layer>
+
+    <layer id="5" name="output_layer" type="SoftMax" precision="FP32">
+        <input><port id="0"><dim>1</dim><dim>6</dim></port></input>
+        <output><port id="0"><dim>1</dim><dim>1</dim></port></output>
+    </layer>
+
+    <output name="output">
+        <port id="0"><dim>1</dim><dim>1</dim></port>
+    </output>
+
+    <weights>
+        <weight name="fc1_weights" file="fc1_weights_diabetes.bin"/>
+        <weight name="fc1_biases" file="fc1_biases_diabetes.bin"/>
+        <weight name="fc2_weights" file="fc2_weights_diabetes.bin"/>
+        <weight name="fc2_biases" file="fc2_biases_diabetes.bin"/>
+    </weights>
+</net>
 
