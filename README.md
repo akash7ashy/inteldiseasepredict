@@ -8,7 +8,8 @@
 
 ## 📽️ Project Demo Video
 
-Watch the demo here 👉 [Project Demo]((https://drive.google.com/file/d/1AEqcDRZZqLzXBQjeYjHCQeVGqQtbteOR/view?usp=drive_link))
+Watch the demo here 👉 [Project Demo]
+https://drive.google.com/file/d/1AEqcDRZZqLzXBQjeYjHCQeVGqQtbteOR/viewusp=drive_link
 
 
 
