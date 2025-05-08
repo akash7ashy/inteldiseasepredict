@@ -1,5 +1,9 @@
 # Multiple Disease Prediction System using Machine Learning and OpenVINO
 
+🌐 Live Demo
+👉 Try it live on Streamlit Cloud:
+https://multiple-disease-predict.streamlit.app
+
 ## 🔬 Overview
 
 This project is a web-based application designed to predict the likelihood of three major health conditions using machine learning:
