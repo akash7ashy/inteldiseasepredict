@@ -118,26 +118,6 @@ This will generate:
 Repeat this for other models (diabetes, parkinson).
 
 
-## 💉 Heart Disease Prediction
-
-![imgintel](https://github.com/user-attachments/assets/8d15f9fa-adb5-4954-893e-cde320f328fb)
-
-
-
----
-![imgintel](https://github.com/user-attachments/assets/b00dd49b-938e-4db5-90f1-de7893af8002)
-![imgintel](https://github.com/user-attachments/assets/e4bfab66-8df5-4103-9dfb-3ed6694b3531)
-
-## 🧠 Parkinson’s Disease Prediction
-
-![Parkinson](imgintel2.PNG)
-
----
-
-## 🍬 Diabetes Prediction
-
-![Diabetes](imgintel3.PNG)
-
 💡 Future Improvements
 Integrate deep learning models with CNNs
 
