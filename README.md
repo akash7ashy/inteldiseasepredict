@@ -120,7 +120,8 @@ Repeat this for other models (diabetes, parkinson).
 
 ## 💉 Heart Disease Prediction
 
-![Heart Disease](https://github.com/akash7ashy/inteldiseasepredict/blob/main/imgintel.PNG)
+![imgintel](https://github.com/user-attachments/assets/470bc04f-af16-4797-b663-e5640f13e675)
+
 
 ---
 
