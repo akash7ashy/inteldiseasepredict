@@ -109,6 +109,25 @@ This will generate:
 Repeat this for other models (diabetes, parkinson).
 
 
+## 💉 Heart Disease Prediction
+
+![Heart Disease Screenshot](imgintel.PNG)
+
+The model analyzes patient data and outputs a prediction on the likelihood of heart disease.
+
+## 🧠 Parkinson’s Disease Prediction
+
+![Parkinson Screenshot](imgintel2.PNG)
+
+This section uses voice and movement-related data to assess whether a patient may have Parkinson’s Disease.
+
+## 🍬 Diabetes Prediction
+
+![Diabetes Screenshot](imgintel3.PNG)
+
+By evaluating key health indicators like glucose level and BMI, the model predicts diabetes risk.
+
+
 💡 Future Improvements
 Integrate deep learning models with CNNs
 
