@@ -70,15 +70,15 @@ multiple-disease-prediction-app/
 git clone https://github.com/yourusername/multiple-disease-prediction-app.git
 cd multiple-disease-prediction-app
 
-### 2. Install Dependencies
-```bash
+ 2. Install Dependencies
+
 pip install -r requirements.txt
 
-### 3. Run the App
-```bash
+3. Run the App
+
 streamlit run app.py
 
-### Step 1: Convert .pkl to .onnx
+ Step 1: Convert .pkl to .onnx
 Convert your sklearn model to ONNX format using skl2onnx or onnxmltools.
 
 # Example for Heart Disease
@@ -93,7 +93,7 @@ onnx_model = convert_sklearn(model, initial_types=initial_type)
 with open("heart_disease_model.onnx", "wb") as f:
     f.write(onnx_model.SerializeToString())
 
-### Step 2: Convert ONNX to OpenVINO IR
+Step 2: Convert ONNX to OpenVINO IR
 ovc heart_disease_model.onnx
 This will generate:
 
