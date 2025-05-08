@@ -111,19 +111,15 @@ Repeat this for other models (diabetes, parkinson).
 
 ## 💉 Heart Disease Prediction
 
-![Heart Disease Screenshot](https://github.com/akash7ashy/inteldiseasepredict/blob/main/newfolder/multiple-disease-prediction-streamlit-app/imgintel.PNG)
-
-The model analyzes patient data and outputs a prediction on the likelihood of heart disease.
+<img src="imgintel.PNG" alt="Heart Disease Screenshot" width="600"/>
 
 ## 🧠 Parkinson’s Disease Prediction
 
-![Parkinson Screenshot](imgintel2.PNG)
-
-This section uses voice and movement-related data to assess whether a patient may have Parkinson’s Disease.
+<img src="imgintel2.PNG" alt="Parkinson Screenshot" width="600"/>
 
 ## 🍬 Diabetes Prediction
 
-![Diabetes Screenshot](imgintel3.PNG)
+<img src="imgintel3.PNG" alt="Diabetes Screenshot" width="600"/>
 
 By evaluating key health indicators like glucose level and BMI, the model predicts diabetes risk.
 
