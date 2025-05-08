@@ -1,1 +1,37 @@
+<NetronModel>
+  <model name="Diabetes Prediction Model">
+    <metadata>
+      <ir_version>7</ir_version>
+      <producer_name>OnnxTool</producer_name>
+      <producer_version>1.9.0</producer_version>
+      <domain>ai.onnx</domain>
+      <model_version>1.0</model_version>
+      <doc_string>Diabetes prediction model based on medical data.</doc_string>
+    </metadata>
+    <input name="input" shape="1x8" dtype="float32"/>
+    <output name="output" shape="1x1" dtype="int64"/>
+    <graph>
+      <node name="fc1" op_type="Gemm">
+        <input>input</input>
+        <output>fc1_output</output>
+        <attribute name="alpha" value="1.0"/>
+        <attribute name="beta" value="1.0"/>
+      </node>
+      <node name="relu" op_type="Relu">
+        <input>fc1_output</input>
+        <output>relu_output</output>
+      </node>
+      <node name="output_layer" op_type="Softmax">
+        <input>relu_output</input>
+        <output>output</output>
+      </node>
+    </graph>
+    <initializer>
+      <tensor name="fc1_weights" shape="8x10" dtype="float32">[ ... ]</tensor>
+      <tensor name="fc1_biases" shape="10" dtype="float32">[ ... ]</tensor>
+      <tensor name="output_layer_weights" shape="10x1" dtype="float32">[ ... ]</tensor>
+      <tensor name="output_layer_biases" shape="1" dtype="float32">[ ... ]</tensor>
+    </initializer>
+  </model>
+</NetronModel>
 
