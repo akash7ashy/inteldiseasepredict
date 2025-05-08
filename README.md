@@ -111,7 +111,7 @@ Repeat this for other models (diabetes, parkinson).
 
 ## 💉 Heart Disease Prediction
 
-![Heart Disease Screenshot](imgintel.PNG)
+![Heart Disease Screenshot](https://github.com/akash7ashy/inteldiseasepredict/blob/main/newfolder/multiple-disease-prediction-streamlit-app/imgintel.PNG)
 
 The model analyzes patient data and outputs a prediction on the likelihood of heart disease.
 
