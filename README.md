@@ -1,8 +1,9 @@
 # Multiple Disease Prediction System using Machine Learning and OpenVINO
 
 🌐 Live Demo
-👉 Try it live on Streamlit Cloud:
-https://multiple-disease-predict.streamlit.app
+👉 Try it live on Streamlit Cloud:https://intelmultiplediseasepredict.streamlit.app/
+
+
 
 ## 🔬 Overview
 
