@@ -111,18 +111,19 @@ Repeat this for other models (diabetes, parkinson).
 
 ## 💉 Heart Disease Prediction
 
-<img src="imgintel.PNG" alt="Heart Disease Screenshot" width="600"/>
+![Heart Disease](imgintel.PNG)
+
+---
 
 ## 🧠 Parkinson’s Disease Prediction
 
-<img src="imgintel2.PNG" alt="Parkinson Screenshot" width="600"/>
+![Parkinson](imgintel2.PNG)
+
+---
 
 ## 🍬 Diabetes Prediction
 
-<img src="imgintel3.PNG" alt="Diabetes Screenshot" width="600"/>
-
-By evaluating key health indicators like glucose level and BMI, the model predicts diabetes risk.
-
+![Diabetes](imgintel3.PNG)
 
 💡 Future Improvements
 Integrate deep learning models with CNNs
